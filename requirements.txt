@@ -1,0 +1,5 @@
+casadi>=3.6
+numpy>=1.21
+pygame>=2.1
+matplotlib>=3.5
+pyyaml>=5.4

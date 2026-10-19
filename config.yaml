@@ -1,0 +1,26 @@
+robot:
+  radius: 0.4 # [m]
+
+start_pose: [1.0, 1.0, 0.0] # [x, y, theta]
+
+waypoints:
+  - [5.0, 2.0, 1.57]
+  - [10.0, 7.0, 1.57]
+  - [5.0, 12.0, 3.14]
+  - [13.0, 13.0, 0.0]
+
+simulation:
+  goal_threshold: 0.5 # Distance to consider waypoint reached [m]
+
+control:
+  v_min: 0.0
+  v_max: 3.0
+  omega_max: 1.0
+  a_max: 1.5
+  omega_dot_max: 1.5
+
+visualization:
+  xlim: [-1, 15]
+  ylim: [-1, 15]
+  show_predictions: true
+  show_obstacles_paramterization: true
